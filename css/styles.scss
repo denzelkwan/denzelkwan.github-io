@@ -164,18 +164,10 @@ ul.feature-icons li {
   position: relative;
   vertical-align: top;
   width: 48%;
+  font-size: 18px;
 }
 
-// ul.feature-icons li:before {
-//   -moz-osx-font-smoothing: grayscale;
-//   -webkit-font-smoothing: antialiased;
-//   font-family: FontAwesome;
-//   font-style: normal;
-//   font-weight: normal;
-//   text-transform: none !important;
-// }
-
-ul.feature-icons li:before {
+ul.feature-icons i:before {
   background: #000000;
   border-radius: 100%;
   color: #ffffff;
