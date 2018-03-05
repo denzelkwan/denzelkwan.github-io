@@ -1,187 +1,88 @@
-<!DOCTYPE HTML>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
-	<title>Denzel Kwan</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="assets/css/animate.css"/>
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  <link rel="stylesheet" href="css/flexbox.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href='css/styles.scss'>
+  <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee|Open+Sans" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
 
 <body>
-	<!-- Header -->
-	<section id="header">
-		<header class="fadeIn animated">
-			<span class="image avatar fadeInRight animated"><img src="images/denzel.jpg" alt="" /></span>
-			<h1 id="logo"><a href="#">Denzel Kwan</a></h1>
-			<p>Toronto, Canada</p>
-		</header>
-		<nav id="nav" class="fadeIn animated">
-			<ul>
-				<li><a href="#one">About</a></li>
-				<li><a href="#two">Hobbies</a></li>
-				<!-- <li><a href="#three">A Few Accomplishments</a></li> -->
-				<li><a href="#three">Contact</a></li>
-				<li><a href="resume.pdf">Resume</a></li>
-			</ul>
-		</nav>
-		<footer>
-			<ul class="icons bounceIn animated">
-				<li><a href="https://www.linkedin.com/in/denzelkwan/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-				<li><a href="https://medium.com/@denzel.kwan" class="icon fa-medium"><span class="label">Medium</span></a></li>
-				<li><a href="https://github.com/denzelkwan" class="icon fa-github"><span class="label">Github</span></a></li>
-			</ul>
-		</footer>
-	</section>
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+  <div class="container-fluid">
+    <div class="row end-xs navigation">
+      <li style="font-family:'Mukta Mahee'"><a href="#" onclick="return false;">Home</a></li>
+      <li style="font-family:'Mukta Mahee'"><a href="#about">About</a></li>
+      <li style="font-family:'Mukta Mahee'"><a href="#contact">Contact</a></li>
+      <li style="font-family:'Mukta Mahee'"><a href="follow.html">Follow</a></li>
+      <li style="font-family:'Mukta Mahee'"><a href="files/DenzelKwanResume.pdf">Resume</a></li>
+    </div>
+  </div>
 
-		<!-- Main -->
-		<div id="main">
+  <div class="container-fluid image">
+    <img src="images/hongkong.jpg" alt="hongkong" class="contain" style="height:60%;width:100%;">
+    <div class="row center-xs">
+      <div class="row center-xs intro">
+        <h1 class="intro">Denzel Kwan</h1>
+      </div>
+      <h2 class="intro"> Future UW Engineering Alumni </h2>
+    </div>
+  </div>
 
-			<!-- One -->
-			<section id="one">
-				<div class="container">
-					<header class="major">
-						<h2>Hi, my name is Denzel!</h2>
-						<p>I'm in my 3rd year at the University of Waterloo studying Management Engineering.<br/></p>
-						<p>
-							Not aiming to be the next Top 30 under 30, not trying to revolutionize the world with the newest gadget, but currently on a <strong>mission</strong> to discover my passion in life.
-						</p>
-					</header>
-					<p>Call me crazy but I don't believe in stress. Stay motivated but stay calm.</p>
-					<p> <strong>*I am currently studying abroad in Finland. If you wish to contact me, it's best to do it via email, which you can find down below </strong></p>
-				</div>
-			</section>
+  <div class="container-fluid about">
+    <div class="row center-xs">
+      <h2 id="about" class="center-xs about"> About Me </h2>
+    </div>
+    <div class="row start-xs">
+      <div class="col-xs-2">
+      </div>
+      <div class="col-xs-7">
+        <p class="about"> Hi there! I'm Denzel and I'm currently a 4th year Management Engineering student. I'm not trying to be the next Top 30 Under 30, not trying to revolutionze the world with the neweset gadget, but on a <b>mission</b> to discover my passion in life.</p>
+        <p class="about">I'm an avid athlete who can play most physical sports, but am also very capable of the sit-down sports such as chess and video gaming. </p>
+        <p class="about" style="padding-bottom: 50px">I try to be the best social entertainer I can be through my various social media posts, pictures, and stories! </p>
+        <h3> When I ain't studying, you can catch me: </h3>
+        <br>
+        <ul class="feature-icons">
+          <li class="fas fa-basketball-ball fa-lg">On the court balling out</li>
+          <li class="fab fa-leanpub fa-lg">Trying to learn something new</li>
+          <li class="fab fa-facebook-f fa-lg">Socializing on Facebook</li>
+          <li class="fab fa-youtube fa-lg">Watching Youtube videos</li>
+          <li class="fab fa-medium-m fa-lg">Thinking of new ideas for my blog</li>
+          <li class="fas fa-trophy fa-lg">Aiming to be Mr. Hong Kong 2019</li>
+        </ul>
+      </div>
+      <div class="col-xs-3">
+        <img class="denzel" src="images/denzelkwan.jpg" alt="denzel" style="width:250px; height:300px">
+      </div>
+    </div>
+  </div>
 
-			<!-- Two -->
-			<section id="two">
-				<div class="container">
-					<h3>Hobbies</h3>
-					<p>If I ain't studying, you can catch me having fun during my free time:</p>
-					<ul class="feature-icons">
-						<li class="fa-book">Learning something new</li>
-						<li class="fa-gamepad">Gaming</li>
-						<li class="fa-soccer-ball-o">Playing ball</li>
-						<li class="fa-facebook">Facebook</li>
-						<li class="fa-medium">Thinking of new ideas for my blog</li>
-						<li class="fa-youtube-play">YouTube</li>
-						<li class="fa-music">Jamming out to some tunes</li>
-						<li class="fa-forward">Living life</li>
-						<li class="fa-trophy">Dreaming to be Mr. Hong Kong '19 </li>
-						<li class="fa-television">Trying to get on TV</li>
+  <div class="container-fluid contact">
+    <div class="row center-xs">
+      <h2 id="contact" class="center-xs contact"> Contact </h2>
+    </div>
+    <br>
+    <div class="row center-xs">
+    </div>
+    <div class="row">
+      <div class="col-xs-4">
+        <p class="contact"><a href="#" onclick="return false;"> <i class="far fa-envelope fa-lg"> denzel.kwan@gmail.com</a></i>
+        </p>
+      </div>
+      <div class="col-xs-4">
+        <p class="contact"><a href="https://www.linkedin.com/in/denzelkwan/"><i class="fab fa-linkedin-in fa-lg"> denzelkwan</a></i>
+        </p>
+      </div>
+      <div class="col-xs-4">
+        <p class="contact"><a href="https://github.com/denzelkwan"><i class="fab fa-github-alt fa-lg"> denzelkwan</a></i>
+        </p>
+      </div>
+    </div>
+    <br></br>
+    <br></br>
+  </div>
 
-					</ul>
-				</div>
-			</section>
-
-			<!-- Three -->
-			<!-- <section id="three">
-								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Possibly broke spacetime</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section> -->
-
-			<!-- Four -->
-
-
-			<!-- <section id="four">
-				<div class="container">
-					<h3>Contact Me</h3>
-					<p> *This currently does not function.*</p>
-					<form method="post" action="#">
-						<div class="row uniform">
-							<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-							<div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-						</div>
-						<div class="row uniform">
-							<div class="12u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-						</div>
-						<div class="row uniform">
-							<div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-						</div>
-						<div class="row uniform">
-							<div class="12u">
-								<ul class="actions">
-									<li><input type="submit" class="special" value="Send Message" /></li>
-									<li><input type="reset" value="Reset Form" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
-				</div>
-			</section> -->
-			<section id="three">
-				<div class="container">
-					<h3> Contact </h3>
-					<h5> Questions? Concerns? Want to be friends? </h5>
-					<br>
-					<!-- <canvas id="myChart" width="400" height="400"></canvas>
-					<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
-					<script src="js/chart.js"></script>
-					<br>
-					<br> -->
-					<ul class="feature-icons">
-						<li class="fa-envelope"> denzel.kwan@uwaterloo.ca </li>
-						<li class="fa-phone"> 1-647-966-8334</li>
-					</ul>
-				</div>
-			</section>
-		</div>
-
-		<!-- Footer -->
-		<section id="footer">
-			<div class="container">
-				<ul class="copyright">
-					<li> Photo by Bigstock.</li>
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</div>
-		</section>
-
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollzer.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
 
 </body>
 
