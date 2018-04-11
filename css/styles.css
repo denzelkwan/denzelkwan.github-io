@@ -9,6 +9,16 @@ a:hover {
   color: #1E90FF;
 }
 
+a:hover.contact {
+  color: #1E90FF;
+  text-decoration: none;
+}
+
+a:hover.icon {
+  color: #000000;
+  text-decoration: none;
+}
+
 .contact {
   -webkit-flex-wrap: wrap;
   flex-wrap: row wrap;
