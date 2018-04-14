@@ -98,6 +98,13 @@ html {
   object-fit: cover;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
 .intro {
   font-family: 'Mukta Mahee';
   font-size: 70px;
